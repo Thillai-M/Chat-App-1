@@ -1,0 +1,50 @@
+
+:root {
+    --w-sidebar:75px;
+    --w-70px:70px;
+    --w-chat-list:450px;
+    --br-radius-sm: 5px;
+    --br-radius-lm: 15px;
+    --br-radius:50px;
+    --br-radius-full: 50%;
+    --h-icon-link:50px;
+    --h-primary-header : 90px;
+    --h-secondary-header: 40px;
+    --h-flip-card : 240px;
+    --w-max:1280px;
+    --h-chat-bg:700px;
+    --h-chat-img:140px;
+    --w-chat-img:200px;
+    --h-msg-count:15px;
+    --w-msg-count:15px;
+    --max-w-converstaion:800px;
+    --h-hdr-main:80px;
+    --h-search-cont:70px;
+    --h-archive:70px;
+}
+
+.fw400{font-weight: 400;}
+.fw200{font-weight: 200;}
+.fw500{font-weight: 500;}
+.fw600{font-weight: 600;}
+.fw800{font-weight: 800;}
+.fw-3{font-weight: 550;}
+.lh{line-height:8px}
+.ltr-spc-7{letter-spacing: 7px;}
+.ltr-spc-1{letter-spacing: 1px;}
+.ltr-spc-2{letter-spacing: 2px;}
+.btn-w{width: 52%;}
+.l-h{line-height: 35px;}
+.brd-1px{border:1px solid rgba(255, 255, 255, .3);}
+.brd-rad-5px{border-radius: 5px;}
+.w100pc{width: 100%;}
+.w50pc{width: 50%;}
+.w40pc{width: 40%;}
+.w70px{width: 70px;}
+.w90pc{width: 90%;}
+.w-30px{width: 30px;}
+.brd-rad-5px{border-radius:5px;}
+.obj-ft{object-fit: cover;}
+.cur-p{cursor: pointer;}
+.brd-left-none{border-left: none;}
+

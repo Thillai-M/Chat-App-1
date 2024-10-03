@@ -1,0 +1,221 @@
+
+
+
+/* app-container */
+.app-container{
+    height:100vh;
+    background-color: var(--c-white);
+}
+/* //app-container */
+
+
+/* app-sidbar */
+.app-container .app-sidebar{
+    width: var(--w-sidebar);
+    padding: 25px 0;
+}
+
+.app-container .icon-link{
+    display: block;
+    height: var(--h-icon-link);
+    width: 100%;
+    transition: var(--default-trans);
+}
+.icon-link:hover{
+    color: var(--c-blue);
+}
+.app-container .msg-icon{
+    display: flex;
+    height:35px;
+    width:35px;
+    background:var(--c-sky);
+    border-radius: var(--br-radius-sm);
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.app-container .icon-grps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+/*/// app-sidebar */
+
+/* app-chat-container chat-list */
+.app-container .app-chat-container{
+    display: flex;
+    width: calc(100% - var(--w-sidebar)); 
+}
+
+.app-container .chat-list-container{
+    width:var(--w-chat-list);
+    height: 100%;
+    background-color:var(--c-white-20);
+
+}
+
+.app-container .chat-list-data{
+    height: calc(100% - (var(--h-hdr-main) + var(--h-search-cont) + var(--h-hdr-main)));
+    overflow-y: scroll;
+    padding: 0 10px;
+}
+.app-container .list-bg{
+    transition: var(--default-trans);
+    padding: 10px;
+}
+
+.app-container .list-bg:hover{
+    background-color: var(--c-navy-lite);
+    border-radius: var(--br-radius-sm);
+}
+
+.app-container .profile{
+    width: 100%;
+    height: var(--h-hdr-main);
+    border-bottom:1px solid var(--c-grey55); 
+    padding: 0 10px;
+}
+
+.search{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder {
+    color: var(--c-grey);
+    opacity: 1;
+}
+
+.app-container .searchbox{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: var(--c-white);
+    border-radius: var(--br-radius-lm);
+}
+.app-container .archive{
+    display: flex;
+    height: var(--h-archive);
+    cursor: default;
+}
+.app-container .search-container{
+    height:var(--h-search-cont);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.app-container .msg-count{
+    display: flex;
+    height: var(--h-msg-count);
+    width: var(--w-msg-count);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--br-radius-full);
+    background-color: var(--c-blue);
+}
+/* ///app-chat-container chat-list */
+
+/* msg-container */
+.app-container  .msg-container{
+    width: calc(100% - var(--w-chat-list));
+}
+.app-container .conversaion-box{
+    padding: 20px 10px;
+    width:100%;
+    height: calc(100% - 120px);
+    overflow-y:auto;
+}
+
+.app-container .msg-header{
+    height: var(--h-hdr-main);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid var(--c-grey55); 
+    padding: 0px 15px;
+}
+
+.app-container .header-btn{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 5px;
+    background-color: var(--c-white-10);
+    border-radius: var(--br-radius-sm);
+    transition: var(--default-trans);
+}
+.header-btn:hover{
+    color: var(--c-blue);
+}
+.app-container .chat-day{
+    margin: 0 auto;
+    padding: 5px 8px;
+    justify-content: center;
+    border-radius: var(--br-radius-sm);
+    background-color: var(--c-white-10);
+}
+
+.app-container .recived-msg{
+    border-top-right-radius: var(--br-radius-lm);
+    border-bottom-right-radius: var(--br-radius-lm);
+    border-bottom-left-radius: var(--br-radius-lm);
+    background-color: var(--c-white-15);
+    padding:10px 15px;
+    max-width: 420px;
+}
+
+.app-container .my-msg{
+    border-top-left-radius: var(--br-radius-lm);
+    border-bottom-right-radius: var(--br-radius-lm);
+    border-bottom-left-radius: var(--br-radius-lm);
+    background-color: var(--c-blue);
+    color: var(--c-white);
+    padding:10px 15px;
+    max-width: 420px;
+}
+
+.app-container .my-msg-parent{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.app-container .chat-img{
+    width: var(--w-chat-img);
+    height: var(--h-chat-img);
+    border-radius: var(--br-radius-lm);
+    object-fit: cover;
+    object-position: center;
+
+}
+.search-input{
+    width:100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.search-cont{
+    width: 100%;
+    height: 40px;
+    padding:0 10px;
+    background-color: var(--c-white-10);
+    border-radius: var(--br-radius-lm);
+
+}
+.footer{
+    padding: 0 10px;
+}
+.f-icon{
+    font-size: 20px;
+}
+.f-icon:hover{
+    color: var(--c-blue);
+}
+

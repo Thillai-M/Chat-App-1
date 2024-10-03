@@ -1,0 +1,7 @@
+
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: var(--default-trans);
+}

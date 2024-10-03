@@ -1,0 +1,77 @@
+
+.D-blx { display: block; }
+.D-flx { display: flex; }
+.D-Inflx { display: inline-flex; }
+.D-Inblk { display: inline-block; }
+.FD-R { flex-direction: row }
+.FD-C { flex-direction: column }
+.Fd-RR { flex-direction: row-reverse }
+.FD-CR { flex-direction: column-reverse }
+.FW-NW { flex-wrap: nowrap; }
+.FW-W { flex-wrap: wrap; }
+.FW-WR { flex-wrap: wrap-reverse; }
+.FF-CW { flex-flow: column wrap; }
+.JC-FS { justify-content: flex-start; }
+.JC-FE { justify-content: flex-end; }
+.JC-SB { justify-content: space-between; }
+.JC-SA { justify-content: space-around; }
+.JC-SE { justify-content: space-evenly; }
+.JC-C { justify-content: center; }
+.JC-E { justify-content: end; }
+.AI-FS { align-items: flex-start; }
+.AI-FE { align-items: flex-end; }
+.AI-C { align-items: center; }
+.AI-S { align-items: stretch; }
+.AI-B { align-items: baseline; }
+.AC-FS { align-content: flex-start; }
+.AC-FE { align-content: flex-end; }
+.AC-S { align-content: stretch; }
+.AC-C { align-content: center; }
+.AC-SB { align-content: space-between; }
+.AC-SA { align-content: space-around; }
+.Ta-c{text-align:center; }
+.Ta-E{text-align:end; }
+
+
+.G-2 { gap: 2px; }
+.G-5 { gap: 5px; }
+.G-8 { gap: 8px; }
+.G-10 { gap: 10px; }
+.G-15 { gap: 15px; }
+.G-20 { gap: 20px; }
+.G-25 { gap: 25px; }
+.G-30 { gap: 30px; }
+.G-40 { gap: 40px; }
+.G-80 { gap: 80px; }
+
+.RG-5 { grid-row-gap: 5px; }
+.CG-5 { grid-column-gap: 5px; }
+
+.F-E{flex: end;}
+.FG-1 { flex-grow: 1; }
+.FG-0 { flex-grow: 0; }
+.FG-2 { flex-grow: 2; }
+.FG-3 { flex-grow: 3; }
+
+.FS-0 { flex-shrink: 0; }
+.FS-2 { flex-shrink: 2; }
+.FS-3 { flex-shrink: 3; }
+.FS-4 { flex-shrink: 4; }
+
+.F-1 { flex: 1; }
+.F-N { flex: none; }
+
+.AS-A { align-self: auto; }
+.AS-B { align-self: baseline; }
+.AS-C { align-self: center; }
+.AS-FS { align-self: flex-start; }
+.AS-FE { align-self: flex-end; }
+.AS-S { align-self: stretch; }
+
+.JS-A { justify-self: auto; }
+.JS-B { justify-self: baseline; }
+.JS-C { justify-self: center; }
+.JS-FS { justify-self: flex-start; }
+.JS-FE { justify-self: flex-end; }
+.JS-S { justify-self: stretch; }
+.Ta-c{text-align: center;}

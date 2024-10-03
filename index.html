@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="Chat-App" />
+		<meta name="keywords" content="Chatapps, HTML CSS Landing Page" />
+		<meta name="author" content="Thillai" />
+		<title>Chat-App</title>
+
+		<!-- tittle-icon -->
+		<link rel="icon" href="/images/logoIcon.png" />
+
+		<!-- box-icon-->
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+		<!--CSS -->
+		
+		<!-- common-styles -->
+		<link rel="stylesheet" href="./css/colors.css" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="stylesheet" href="./css/global-value.css" />
+		<link rel="stylesheet" href="./css/flex.css" />
+		<link rel="stylesheet" href="./css/style-bits.css" />
+		<link rel="stylesheet" href="./css/animation.css" />
+		<link rel="stylesheet" href="./css/font.css" />
+
+		<!-- component-styles -->
+		<link rel="stylesheet" href="./css/button.css" />
+		<link rel="stylesheet" href="./css/typography.css" />
+		<link rel="stylesheet" href="./css/home.css" />
+		<!-- CSS -->
+	</head>
+
+	<body>
+		<!-- app-container -->
+		<div class="app-container D-flx">
+			<!-- app-sidebar -->
+			<aside class="app-sidebar">
+				<div class="icon-grps">
+					<div class="Ta-c">
+						<div class="grp-1-icon mB80">
+							<a class="c-white msg-icon icon-link" href=""><i class="f24 bx bx-message-rounded-dots"></i></a>
+						</div>
+
+						<div class="grp-2-icon">
+							<ul>
+								<li>
+									<a class="icon-link c-grey" href=""><i class="f24 bx bx-grid-alt"></i></a>
+								</li>
+								<li>
+									<a class="icon-link c-grey" href=""><i class="f24 bx bx-compass"></i></a>
+								</li>
+								<li>
+									<a class="icon-link c-blue" href=""><i class="f24 bx bx-message-alt-dots c-blue"></i></a>
+								</li>
+								<li>
+									<a class="icon-link c-grey" href=""><i class="f24 bx bx-heart"></i></a>
+								</li>
+								<li>
+									<a class="icon-link c-grey" href=""><i class="f24 bx bx-bookmark"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="icon-grp-3">
+						<ul>
+							<li>
+								<a class="icon-link c-grey" href=""><i class="f24 bx bxs-info-circle"></i></a>
+							</li>
+							<li>
+								<a class="icon-link c-grey" href=""><i class="f24 bx bxs-cog"></i></a>
+							</li>
+							<li>
+								<a class="icon-link c-grey" href=""><i class="f24 bx bx-log-in"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!-- ///app-sidebar -->
+
+			<!-- app-chat-container -->
+			<div class="app-chat-container D-flx">
+				<section class="chat-list-container">
+					<!-- user-profile -->
+					<div class="profile D-flx AI-C">
+						<div class="D-flx G-10 AI-C">
+							<div class="profile-cont">
+								<img class="profile-img prof-brd" src="./images/p1c.jpg" alt="" />
+							</div>
+
+							<div class="prof-title-msg">
+								<div class="mB4">
+									<span class="prof-msg">Good Morning</span>
+								</div>
+								<div class="">
+									<span class="prof-title">Omi Gusty Rifani</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- serach-box -->
+					<div class="search-container">
+						<div class="searchbox D-flx G-5 AI-C">
+							<span class="search-icon"><i class="f16 bx bx-search c-grey"></i></span>
+							<input class="search" type="search" placeholder="Search or start new message" />
+						</div>
+					</div>
+
+					<!-- archive -->
+					<div class="archive D-flx G-10 AI-C JC-C">
+						<div>
+							<span class="c-grey f14">Archived 221</span>
+						</div>
+						<i class="bx bxs-archive-in c-grey"></i>
+					</div>
+
+					<!-- chat-lists -->
+					<div class="chat-list-data">
+						<ul class="chat-list">
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="mB10 D-flx JC-SB AI-C chat-bg-col c-white" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p5.jpeg" alt="" />
+										</div>
+
+										<div class="prof-head-msg">
+											<div class="mB4">
+												<span class="prof-head">Kalwabed Rizki</span>
+											</div>
+											<div class="">
+												<span class="f12">How about we visit</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="time f10 fw600">11:24 AM</span>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p3.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ika Harumningtyas</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">i can't go today</span>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="Ta-c">
+											<i class="bx bx-check-double f24 c-blue"></i>
+										</div>
+
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:15 AM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p7jpeg.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Rebut santosa</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">keep it up bro</span>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="Ta-c">
+											<i class="bx bx-check-double f24 c-grey"></i>
+										</div>
+
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:11 AM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p2.jpg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Muhammad Amru</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Hahaha,i think so</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="c-grey time f10 fw600">11:01 AM</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p7jpeg.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Rebut santosa</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">keep it up bro</span>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="Ta-c">
+											<i class="bx bx-check-double f24 c-grey"></i>
+										</div>
+
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:11 AM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p9.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Toni</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Let's go for walk</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="c-grey time f10 fw600">Yester day</span>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p9.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Toni</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Let's go for walk</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="c-grey time f10 fw600">Yester day</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p9.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Toni</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Let's go for walk</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="c-grey time f10 fw600">Yester day</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p9.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Toni</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Let's go for walk</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="c-grey time f10 fw600">Yester day</span>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p9.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Toni</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Let's go for walk</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="c-grey time f10 fw600">Yester day</span>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg mB10 p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p10.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Ahmad Hilmi</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Do you want play PS today</span>
+											</div>
+										</div>
+									</div>
+									<div class="">
+										<div class="msg-count mL10">
+											<span class="c-white count f13">1</span>
+										</div>
+										<div class="msg-time">
+											<span class="c-grey time f10 fw600">11:26 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a class="list-bg p10 D-flx JC-SB AI-C" href="">
+									<div class="D-flx G-10 AI-C">
+										<div class="profile-cont">
+											<img class="profile-img" src="./images/p9.jpeg" alt="" />
+										</div>
+
+										<div class="prof-title-msg">
+											<div class="mB4">
+												<span class="prof-title">Toni</span>
+											</div>
+											<div class="">
+												<span class="prof-msg">Let's go for walk</span>
+											</div>
+										</div>
+									</div>
+									<div class="msg-time">
+										<span class="c-grey time f10 fw600">Yester day</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- chat-list-container -->
+
+				<!-- msg-container -->
+				<section class="msg-container">
+					<header class="msg-header">
+						<div class="D-flx G-10 AI-C">
+							<div class="profile-cont">
+								<img class="profile-img" src="./images/p9.jpeg" alt="" />
+							</div>
+
+							<div class="prof-title-msg">
+								<div class="">
+									<span class="prof-title">Geethanjali</span>
+								</div>
+								<div class="">
+									<span class="prof-msg">Last seen, 08:12 AM</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="right-nav">
+							<ul class="D-flx G-20">
+								<li>
+									<button class="btn header-btn c-grey"><i class="bx bx-search f24"></i></button>
+								</li>
+								<li>
+									<button class="btn header-btn c-grey"><i class="bx bx-phone f24"></i></button>
+								</li>
+								<li>
+									<button class="btn header-btn c-grey"><i class="bx bx-dock-right f24"></i></button>
+								</li>
+								<li>
+									<button class="btn header-btn c-grey"><i class="bx bx-dots-vertical-rounded f24"></i></button>
+								</li>
+							</ul>
+						</div>
+					</header>
+
+					<div class="conversaion-box">
+						<div class="Ta-c p-btm20">
+							<span class="chat-day">Yesterday</span>
+						</div>
+
+						<ul id="message-list">
+							<li>
+								<div class="recived-msg mB8">
+									<p class="c-black conversaion">I have updated the last task, Please check it OMI</p>
+									<span class="time f10">11:26 PM</span>
+								</div>
+
+								<div class="recived-msg mB8">
+									<p class="c-black conversaion">Don't you feel bored ? Let'a go on vacation tomorrow</p>
+
+									<span class="time f10">11:26 PM</span>
+								</div>
+							</li>
+
+							<li class="my-msg-parent mB10">
+								<div class="">
+									<div class="my-msg mB8">
+										<p class="conversaion">Okay bed thanks for the progress update</p>
+
+										<div class="msg-time Ta-E">
+											<span class="time f10">11:26 PM</span>
+										</div>
+									</div>
+
+									<div class="my-msg">
+										<p class="conversaion">Wow really, where are we going on vacation?</p>
+
+										<div class="msg-time Ta-E">
+											<span class="time f10">11:26 PM</span>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<li class="mB10">
+								<div class="recived-msg mB10">
+									<p class="c-black conversaion">How about we visit green scenery in my grandmother's hometown. so we can feel refreshing there !</p>
+
+									<span class="time f10">11:26 PM</span>
+								</div>
+
+								<div class="chat-left-img-cont D-flx G-10">
+									<div>
+										<img class="chat-img" src="./images/img1 (1).jpg" alt="img1" />
+									</div>
+									<div>
+										<img class="chat-img" src="/images/img2.jpg" alt="img2" />
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="recived-msg mB8">
+									<p class="c-black conversaion">I have updated the last task, Please check it OMI</p>
+									<span class="time f10">11:26 PM</span>
+								</div>
+
+								<div class="recived-msg mB8">
+									<p class="c-black conversaion">Don't you feel bored ? Let'a go on vacation tomorrow</p>
+
+									<span class="time f10">11:26 PM</span>
+								</div>
+							</li>
+
+							<li class="my-msg-parent mB10">
+								<div class="">
+									<div class="my-msg mB8">
+										<p class="conversaion">Okay bed thanks for the progress update</p>
+
+										<div class="msg-time Ta-E">
+											<span class="time f10">11:26 PM</span>
+										</div>
+									</div>
+
+									<div class="my-msg">
+										<p class="conversaion">Wow really, where are we going on vacation?</p>
+
+										<div class="msg-time Ta-E">
+											<span class="time f10">11:26 PM</span>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<li class="mB10">
+								<div class="recived-msg mB10">
+									<p class="c-black conversaion">How about we visit green scenery in my grandmother's hometown. so we can feel refreshing there !</p>
+
+									<span class="time f10">11:26 PM</span>
+								</div>
+
+								<div class="chat-left-img-cont D-flx G-10">
+									<div>
+										<img class="chat-img" src="./images/chat-img3.jpg" alt="img3" />
+									</div>
+									<div>
+										<img class="chat-img" src="/images/chat-img4.jpg" alt="img4" />
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<footer class="footer">
+						<div class="search-cont D-flx AI-C">
+							<div class="mT5">
+								<button class="btn"><img class="smily w-30px" src="./images/slightly-smiling-face.png" alt="" /></button>
+							</div>
+
+							<input class="search-input" id="message-input" type="serach" placeholder="Write a message" />
+
+							<ul class="D-flx G-20 JC-E">
+								<li>
+									<button class="btn" href=""><i class="bx bx-link f-icon c-grey"></i></button>
+								</li>
+								<li>
+									<button id="recordButto" class="btn" href=""><i class="bx bx-microphone f-icon c-grey"></i></button>
+								</li>
+								<li>
+									<button id="stopButton" class="btn" href=""><i class="bx bx-stop f-icon c-grey"></i></button>
+								</li>
+								<li>
+									<button id="send-button" class="btn" href=""><i class="bx bxs-send f-icon f-icon c-blue"></i></button>
+								</li>
+							</ul>
+						</div>
+
+						<!-- <div class="search-input-icon">
+							
+						</div> -->
+					</footer>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
