@@ -8,7 +8,7 @@
 }
 .prof-title{
     color: var(--c-black);
-    font-family: var(--font-semibold);
+    font-family: "Puvi_Semibold";
     font-size: 14px;
 }
 .prof-brd{border: 2px solid var(--c-blue);}
