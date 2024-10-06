@@ -10,3 +10,9 @@
     src: url("../fonts/Zoho_Puvi_Semibold.otf");
 }
 
+@font-face{
+    font-family: "Puvi_Bold";
+    font-display: swap;
+    src: url("../fonts/Zoho_Puvi_Bold.otf");
+}
+
