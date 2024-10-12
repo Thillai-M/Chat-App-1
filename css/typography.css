@@ -4,6 +4,11 @@
 .prof-msg{
     color: var(--c-grey);
     font-size: 12px;
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
 }
 .prof-title{

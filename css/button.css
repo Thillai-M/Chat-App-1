@@ -3,5 +3,6 @@
     border: none;
     outline: none;
     cursor: pointer;
+    background: none;
     transition: var(--default-trans);
 }
